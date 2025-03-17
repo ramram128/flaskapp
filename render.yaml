@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flaskapp
+    env: python
+    buildCommand: ./render-build.sh
+    startCommand: python app.py
